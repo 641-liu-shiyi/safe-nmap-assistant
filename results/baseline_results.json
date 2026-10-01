@@ -1,0 +1,29 @@
+{
+  "manual_baseline_command": "nmap -sT -sV -p 8080 127.0.0.1",
+  "manual_baseline_success": true,
+  "manual_baseline_parsed_result": {
+    "open_ports": [
+      {
+        "port": 8080,
+        "protocol": "tcp",
+        "service": "http",
+        "version": "nginx 1.31.6"
+      }
+    ],
+    "summary": "Scan completed successfully. Detected open TCP port(s): 8080."
+  },
+  "assistant_parsed_result": {
+    "open_ports": [
+      {
+        "port": 8080,
+        "protocol": "tcp",
+        "service": "http",
+        "version": "nginx 1.31.6"
+      }
+    ],
+    "summary": "Scan completed successfully. Detected open TCP port(s): 8080."
+  },
+  "port_match": true,
+  "service_version_match": true,
+  "overall_baseline_match": true
+}

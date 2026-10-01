@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+.venv12/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Environment variables / secrets
+.env
+
+# Python package metadata
+*.egg-info/

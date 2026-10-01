@@ -1,0 +1,6 @@
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: safe-nmap-nginx
+    ports:
+      - "127.0.0.1:8080:80"
