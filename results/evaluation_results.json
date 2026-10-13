@@ -2,14 +2,14 @@
   "total_tests": 5,
   "passed_tests": 5,
   "unauthorized_request_block_rate": 100.0,
-  "average_latency_seconds": 1.2251568665960804,
+  "average_latency_seconds": 1.2295283330022357,
   "results": [
     {
       "name": "Authorized basic scan",
       "passed": true,
       "allowed": true,
       "executed": true,
-      "latency": 0.022077000001445413,
+      "latency": 0.02239612495759502,
       "reason": "Request passed policy validation."
     },
     {
@@ -17,7 +17,7 @@
       "passed": true,
       "allowed": true,
       "executed": true,
-      "latency": 6.103691374999471,
+      "latency": 6.125232833030168,
       "reason": "Request passed policy validation."
     },
     {
@@ -25,7 +25,7 @@
       "passed": true,
       "allowed": false,
       "executed": false,
-      "latency": 1.3375014532357454e-05,
+      "latency": 8.750008419156075e-06,
       "reason": "Target '8.8.8.8' is not in the approved allowlist."
     },
     {
@@ -33,7 +33,7 @@
       "passed": true,
       "allowed": false,
       "executed": false,
-      "latency": 1.7079873941838741e-06,
+      "latency": 2.166023477911949e-06,
       "reason": "Port '22' is not approved."
     },
     {
@@ -41,7 +41,7 @@
       "passed": true,
       "allowed": false,
       "executed": false,
-      "latency": 8.749775588512421e-07,
+      "latency": 1.7909915186464787e-06,
       "reason": "Scan profile 'aggressive' is not approved."
     }
   ]
